@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles Conference</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    
+    <header>
+        <section class="header-sec">
+            <div class="header-title">
+                <a href="">Styles<br>conference</a>
+            </div>
+     <nav>
+            <h2 class="header-date">August 24–26th — Chicago, IL</h2>
+        <ul id="navLinks">
+            <li><i class="fa-solid fa-xmark icon" onclick="hideMenu()"></i></li>
+            <li class="list--border"><a href="index.html">Home</a></li>
+            <li class="list--border"><a href="speakers.html">Speakers</a></li>    
+            <li class="list--border"><a href="schedule.html">Schedule</a></li>
+            <li class="list--border"><a href="venue.html">Venue</a></li>
+            <li class="list--border"><a href="register.html">Register</a></li>
+        </ul>
+            <i class="fa-solid fa-bars icon" onclick="showMenu()"></i>
+     </nav>
+    </section>
+    <section class="register">
+        <h1>Dedicated to the craft of building websites</h1>
+        <p>Every year the brightest web designers and front-end developers descend on 
+        <br>Chicago to discuss the latest tech logies. Join us this August!</p>
+        <button class="register-btn">Register now</button>
+    </section>
+</header>
+
+<!-- MAIN SECTION -->
+
+<main class="container">
+    <section class="row">
+        <div class="cols">
+            <h5>Speakers</h5>
+            <a class="col-link" href="">
+             <img src="images/speakers.jpg" alt="">
+             World-class speakers</a>
+             <p>Joining us from all around the world are 
+            over twenty fantastic speakers, here to 
+            share their stories.</p>
+        </div>
+        <div class="cols">
+            <h5>Schedule</h5>
+            <a class="col-link" href="">
+            <img src="images/schedule.jpg" alt="">
+            Three inspiring days</a>
+            <p>Enjoy three inspiring and action-packed days of tals, 
+            gatherings, and all-around good times.</p>
+        </div>
+        <div class="cols">
+            <h5>Venue</h5>
+            <a class="col-link" href="">
+            <img src="images/venue.jpg" alt="">
+            The chicago theatre</a>
+            <p>Within the heart of downtown Chicago, The Chicago Theatre will 
+            provide a beautiful conference venue.</p>
+        </div>
+    </section>
+</main>
+
+<!-- FOOTER-SECTION -->
+
+<footer>
+    <div class="footer-txt">
+        <small class="copyright">© Styles Conference</small>
+        <ul>   
+        <li><a href="index.html">Home</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="venue.html">Venue</a></li>
+        <li><a href="register.html">Register</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
